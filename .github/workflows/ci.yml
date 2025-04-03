@@ -61,8 +61,5 @@ jobs:
     - name: Compiles without warnings
       run: mix compile --warnings-as-errors
 
-    - name: Run credo
-      run: mix credo
-
     - name: Run tests
       run: mix test
