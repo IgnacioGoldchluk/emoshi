@@ -24,3 +24,6 @@ emoshi-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# Emoji dataset
+/priv/

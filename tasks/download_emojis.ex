@@ -16,7 +16,11 @@ defmodule Mix.Tasks.DownloadEmojis do
     url = url(version)
 
     %{body: body} = Req.get!(url)
-    File.write!(dest(), body)
+
+    dest_path = dest()
+    dest_dir = Path.dirname(dest())
+    File.mkdir_p(dest_dir)
+    File.write!(dest_path, body)
   end
 
   defp url(version), do: "https://www.unicode.org/Public/emoji/#{version}/emoji-test.txt"
