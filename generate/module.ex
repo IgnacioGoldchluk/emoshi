@@ -5,6 +5,11 @@ defmodule Emoshi.Generate.Module do
 
   @spec generate(list(Emoshi.t()), String.t()) :: String.t()
   def generate(%{emojis: emojis, version: version}, dest_file) do
+    groups =
+      emojis
+      |> Enum.group_by(& &1.group, & &1.subgroup)
+      |> Map.new(fn {group, subgroup} -> {group, Enum.uniq(subgroup)} end)
+
     module =
       quote do
         defmodule Emoshi.Emoshis do
@@ -14,6 +19,10 @@ defmodule Emoshi.Generate.Module do
 
           def version do
             unquote(version)
+          end
+
+          def groups do
+            unquote(groups)
           end
         end
       end

@@ -14,8 +14,28 @@ defmodule Emoshi.Generate.Emoshi do
       specs
       |> String.split("\n")
       |> Enum.map(&String.replace(&1, ~r/\p{So}/u, ""))
-      |> Enum.map(&Emoshi.Generate.Emoshi.parse/1)
+      |> Enum.reduce({[], "", ""}, fn line, {emojis, group, subgroup} = acc ->
+        cond do
+          Regex.match?(group_pattern(), line) ->
+            [group] = Regex.run(group_pattern(), line, capture: :all_but_first)
+            {emojis, String.trim(group), subgroup}
+
+          Regex.match?(subgroup_pattern(), line) ->
+            [subgroup] = Regex.run(subgroup_pattern(), line, capture: :all_but_first)
+            {emojis, group, String.trim(subgroup)}
+
+          Regex.match?(pattern(), line) ->
+            emoji = Emoshi.Generate.Emoshi.parse(line, group, subgroup)
+
+            {[emoji | emojis], group, subgroup}
+
+          true ->
+            acc
+        end
+      end)
+      |> elem(0)
       |> Enum.filter(&fully_qualified?/1)
+      |> Enum.reverse()
 
     expected_length = expected_length(specs)
     total_length = length(emojis)
@@ -109,16 +129,23 @@ defmodule Emoshi.Generate.Emoshi do
 
   ## Examples
 
-      iex> Emoshi.Generate.Emoshi.parse("1F600   ; fully-qualified     # 😀 E1.0 grinning face")
-      %Emoshi{emoji: "😀", status: :fully_qualified, slug: "grinning-face", name: "grinning face"}
+      iex> Emoshi.Generate.Emoshi.parse(
+      ...>  "1F600   ; fully-qualified     # 😀 E1.0 grinning face",
+      ...>  "Smileys & Emotion",
+      ...>  "face-smiling")
+      %Emoshi{
+        emoji: "😀",
+        status: :fully_qualified,
+        slug: "grinning-face",
+        name: "grinning face",
+        group: "Smileys & Emotion",
+        subgroup: "face-smiling"
+      }
 
-      iex> Emoshi.Generate.Emoshi.parse("1F336 FE0F ; fully-qualified     # 🌶️ E0.7 hot pepper")
-      %Emoshi{emoji: "🌶️", status: :fully_qualified, slug: "hot-pepper", name: "hot pepper"}
-
-      iex> Emoshi.Generate.Emoshi.parse("# Format: code points; status # emoji name")
+      iex> Emoshi.Generate.Emoshi.parse("# Format: code points; status # emoji name", "", "")
       nil
   """
-  def parse(line) when is_binary(line) do
+  def parse(line, group, subgroup) when is_binary(line) do
     case Regex.run(pattern(), line, capture: :all_but_first) do
       nil ->
         nil
@@ -128,11 +155,15 @@ defmodule Emoshi.Generate.Emoshi do
           emoji: parse_codepoints(codepoints),
           status: status(status),
           slug: slugify(name),
+          group: group,
+          subgroup: subgroup,
           name: name
         }
     end
   end
 
+  defp group_pattern, do: ~r/# group: (.*)/
+  defp subgroup_pattern, do: ~r/# subgroup: (.*)/
   defp pattern, do: ~r/([A-F0-9\s]+);([^#]*)#.+E[0-9.]+\s+(.*)/u
 
   @doc """

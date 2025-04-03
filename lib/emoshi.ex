@@ -5,7 +5,7 @@ defmodule Emoshi do
   See https://www.unicode.org/reports/tr51/ for information about emojis
   """
   @enforce_keys [:slug, :name, :status, :emoji]
-  defstruct [:slug, :name, :status, :emoji]
+  defstruct [:slug, :name, :status, :emoji, :group, :subgroup]
 
   @type t() :: %__MODULE__{}
 
