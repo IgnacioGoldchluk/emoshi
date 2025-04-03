@@ -5,14 +5,14 @@ defmodule Emoshi.MixProject do
     [
       app: :emoshi,
       version: "0.1.0",
-      elixir: "~> 1.16",
+      elixir: "~> 1.14",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
   end
 
-  defp elixirc_paths(:test), do: ["lib", "tasks", "generate"]
+  defp elixirc_paths(:test), do: ["lib", "generate"]
   defp elixirc_paths(:dev), do: ["lib", "tasks", "generate"]
   defp elixirc_paths(_), do: ["lib"]
 
