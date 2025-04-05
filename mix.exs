@@ -76,7 +76,7 @@ defmodule Emoshi.MixProject do
       licenses: ["Apache-2.0"],
       maintainers: ["Ignacio Goldchluk"],
       source_ref: "v#{@version}",
-      link: %{"GitHub" => @source_url}
+      links: %{"GitHub" => @source_url}
     ]
   end
 end
