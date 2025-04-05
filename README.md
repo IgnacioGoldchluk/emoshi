@@ -1,3 +1,5 @@
+[![CI](https://github.com/IgnacioGoldchluk/emoshi/actions/workflows/ci.yml/badge.svg)](https://github.com/IgnacioGoldchluk/emoshi/actions/workflows/ci.yml)
+
 # Emoshi
 
 Elixir library for accessing emojis.
