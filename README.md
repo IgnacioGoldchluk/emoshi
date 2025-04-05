@@ -1,5 +1,5 @@
 [![CI](https://github.com/IgnacioGoldchluk/emoshi/actions/workflows/ci.yml/badge.svg)](https://github.com/IgnacioGoldchluk/emoshi/actions/workflows/ci.yml)
-[![License](https://img.shields.io/hexpm/l/emoshi.svg)](https://github.com/IgnacioGoldchluk//blob/main/LICENSE.md)
+[![License](https://img.shields.io/hexpm/l/emoshi.svg)](https://github.com/IgnacioGoldchluk/emoshi/blob/main/LICENSE.md)
 [![Version](https://img.shields.io/hexpm/v/emoshi.svg)](https://hex.pm/packages/emoshi)
 [![Docs](https://img.shields.io/badge/documentation-gray.svg)](https://hexdocs.pm/emoshi)
 
