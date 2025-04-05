@@ -1,18 +1,24 @@
 defmodule Emoshi do
   @moduledoc """
-  Utilities for working with emojis.
+  Main module to query and access emoji data.
 
-  See https://www.unicode.org/reports/tr51/ for information about emojis
+  See https://www.unicode.org/reports/tr51/ for information about emojis.
   """
   @enforce_keys [:slug, :name, :status, :emoji]
   defstruct [:slug, :name, :status, :emoji, :group, :subgroup]
 
-  @type t() :: %__MODULE__{}
-
   @type emoji_status() :: :unqualified | :fully_qualified | :minimally_qualified | :component
+  @type t() :: %__MODULE__{
+          emoji: String.t(),
+          slug: String.t(),
+          name: String.t(),
+          status: emoji_status(),
+          group: String.t(),
+          subgroup: String.t()
+        }
 
   @doc """
-  Returns the specs version used to generate the emojis
+  Returns the specs version used to generate the module
   """
   @spec version :: String.t()
   def version do
@@ -20,15 +26,15 @@ defmodule Emoshi do
   end
 
   @doc """
-  Searches emojis by slug.
+  Returns all `t:Emoshi.t/0` where the slug matches the input argument.
 
   Unlike `closest/2` this function checks for substring comparison.
 
   ## Options
 
-  * `:ignore_variations` - `boolean()`. Whether to ignore variations such as skin color.
+  * `:ignore_variations` - `t:boolean/0`. Whether to ignore variations such as skin color.
   Defaults to `true`.
-  * `:take` - `pos_integer()`. The maximum number of emojis to retrieve. Keep in mind
+  * `:take` - `t:pos_integer/0`. The maximum number of emojis to retrieve. Keep in mind
   that unlike `closest/2` which always returns the specified `:take` number, this function
   may return fewer results if there are not enough matches.
   Defaults to `5`
@@ -63,9 +69,9 @@ defmodule Emoshi do
 
   ## Options
 
-  * `:ignore_variations` - boolean. Whether to ignore variations such as skin color.
+  * `:ignore_variations` - `t:boolean/0`. Whether to ignore variations such as skin color.
     Defaults to `true`.
-  * `:take`- positive integer. The number of emojis to retrieve.
+  * `:take`- `t:pos_integer/0`. The number of emojis to retrieve.
     Defaults to `5`
   """
   @spec closest(String.t(), Keyword.t()) :: list(Emoshi.t())

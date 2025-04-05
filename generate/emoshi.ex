@@ -1,7 +1,5 @@
 defmodule Emoshi.Generate.Emoshi do
-  @moduledoc """
-  Emoshi generator
-  """
+  @moduledoc false
 
   @doc """
   Parses an emoji file specification into a list of `%Emoji{}` structs.

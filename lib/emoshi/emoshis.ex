@@ -1,4 +1,5 @@
 defmodule Emoshi.Emoshis do
+  @moduledoc false
   def version do
     "16.0"
   end

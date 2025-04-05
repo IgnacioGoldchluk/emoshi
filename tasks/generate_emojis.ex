@@ -1,11 +1,12 @@
 defmodule Mix.Tasks.GenerateEmojis do
-  @moduledoc """
-  Generates the emojis module from the dataset
-  """
+  @moduledoc false
 
   use Mix.Task
 
   @impl Mix.Task
+  @doc """
+  Generates the emojis module from the dataset
+  """
   def run([]) do
     if not File.exists?(src_file()) do
       Mix.shell().error("#{src_file()} missing, run 'mix download_emojis' first")

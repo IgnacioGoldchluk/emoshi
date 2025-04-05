@@ -1,12 +1,12 @@
 # Emoshi
 
-**TODO: Add description**
+Elixir library for accessing emojis.
+
+This library's list of emojis is generated from the official [emoji data set](https://www.unicode.org/Public/emoji/latest/emoji-test.txt)
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `emoshi` to your list of dependencies in `mix.exs`:
-
+Add `emoshi` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
@@ -15,7 +15,69 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/emoshi>.
+## Usage
 
+### Examples
+
+1. Searching an emoji by name
+```elixir
+iex> Emoshi.search("thumbs", take: 2)
+[
+  %Emoshi{
+    slug: "thumbs-up",
+    name: "thumbs up",
+    status: :fully_qualified,
+    emoji: "👍",
+    group: "People & Body",
+    subgroup: "hand-fingers-closed"
+  },
+  %Emoshi{
+    slug: "thumbs-down",
+    name: "thumbs down",
+    status: :fully_qualified,
+    emoji: "👎",
+    group: "People & Body",
+    subgroup: "hand-fingers-closed"
+  }
+]
+```
+
+2. Fuzzy search
+```elixir
+iex(1)> Emoshi.closest("tubms up", take: 1)
+[
+  %Emoshi{
+    slug: "thumbs-up",
+    name: "thumbs up",
+    status: :fully_qualified,
+    emoji: "👍",
+    group: "People & Body",
+    subgroup: "hand-fingers-closed"
+  }
+]
+```
+
+3. Querying by group
+```elixir
+iex(2)> Emoshi.for_subgroups("Travel & Places", "hotel")
+[
+  %Emoshi{
+    slug: "bellhop-bell",
+    name: "bellhop bell",
+    status: :fully_qualified,
+    emoji: "🛎️",
+    group: "Travel & Places",
+    subgroup: "hotel"
+  },
+  %Emoshi{
+    slug: "luggage",
+    name: "luggage",
+    status: :fully_qualified,
+    emoji: "🧳",
+    group: "Travel & Places",
+    subgroup: "hotel"
+  }
+]
+```
+
+Refer to the [documentation](https://hexdocs.pm/emoshi) for a more comprehensive description of the library's functionality

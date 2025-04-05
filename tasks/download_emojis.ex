@@ -1,15 +1,16 @@
 defmodule Mix.Tasks.DownloadEmojis do
-  @moduledoc """
-  Downloads the specified emoji dataset
-
-  Usage: `mix download_emojis ${VERSION}`
-  """
+  @moduledoc false
   use Mix.Task
 
   # For req
   @requirements ["app.start"]
 
   @impl Mix.Task
+  @doc """
+  Downloads the specified emoji dataset
+
+  Usage: `mix download_emojis ${VERSION}`
+  """
   def run(args) do
     version = if(args == [], do: "latest", else: Enum.at(args, 0))
 

@@ -1,7 +1,5 @@
 defmodule Emoshi.Generate.Module do
-  @moduledoc """
-  Generates the final module containing all emojis
-  """
+  @moduledoc false
 
   @spec generate(list(Emoshi.t()), String.t()) :: String.t()
   def generate(%{emojis: emojis, version: version}, dest_file) do
@@ -13,6 +11,8 @@ defmodule Emoshi.Generate.Module do
     module =
       quote do
         defmodule Emoshi.Emoshis do
+          @moduledoc false
+
           def version do
             unquote(version)
           end
