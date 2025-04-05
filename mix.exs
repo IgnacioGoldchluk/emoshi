@@ -23,6 +23,8 @@ defmodule Emoshi.MixProject do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       aliases: aliases(),
+      package: package(),
+      description: description(),
       # Docs
       name: "Emoshi",
       source_url: @source_url,
@@ -61,6 +63,18 @@ defmodule Emoshi.MixProject do
     [
       main: "Emoshi",
       extras: ["README.md", "CHANGELOG.md"]
+    ]
+  end
+
+  defp description do
+    "An Elixir library for accessing emojis data"
+  end
+
+  defp package do
+    [
+      licenses: ["Apache-2.0"],
+      maintainers: ["Ignacio Goldchluk"],
+      link: %{"GitHub" => @source_url}
     ]
   end
 end

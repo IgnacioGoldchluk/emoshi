@@ -17,9 +17,7 @@ def deps do
 end
 ```
 
-## Usage
-
-### Examples
+## Basic usage
 
 1. Searching an emoji by name
 ```elixir
@@ -82,4 +80,9 @@ iex(2)> Emoshi.for_subgroups("Travel & Places", "hotel")
 ]
 ```
 
-Refer to the [documentation](https://hexdocs.pm/emoshi) for a more comprehensive description of the library's functionality
+Refer to the [full documentation](https://hexdocs.pm/emoshi) for a more comprehensive description of the library's functionality
+
+## Design and contributing
+The main goal of this library is to provide the parsed emoji dataset as an Elixir package.
+
+The approach of including the raw data set (either as text, json, or any format) and parsing it during runtime or during module compilation brings unnecessary dependencies and slows down application startup or application compilation times. This package aims to be as light as possible and currently contains no dependencies for production usage.
