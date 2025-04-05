@@ -1,0 +1,6 @@
+{
+  "skip_files": [
+    "generate/module.ex",
+    "lib/emoshi/emoshis.ex"
+  ]
+}

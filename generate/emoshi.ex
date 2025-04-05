@@ -75,6 +75,9 @@ defmodule Emoshi.Generate.Emoshi do
       iex> Emoshi.Generate.Emoshi.slugify("keycap: #")
       "keycap-number-sign"
 
+      iex> Emoshi.Generate.Emoshi.slugify("keycap: *")
+      "keycap-asterik"
+
       iex> Emoshi.Generate.Emoshi.slugify("flag: St. Pierre & Miquelon")
       "flag-st-pierre-miquelon"
   """

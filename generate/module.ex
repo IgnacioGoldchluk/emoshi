@@ -13,16 +13,16 @@ defmodule Emoshi.Generate.Module do
     module =
       quote do
         defmodule Emoshi.Emoshis do
-          def emojis do
-            unquote(emojis)
-          end
-
           def version do
             unquote(version)
           end
 
           def groups do
-            unquote(groups)
+            unquote(Macro.escape(groups))
+          end
+
+          def emojis do
+            unquote(Macro.escape(emojis))
           end
         end
       end
