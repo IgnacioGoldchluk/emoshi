@@ -89,3 +89,8 @@ Refer to the [full documentation](https://hexdocs.pm/emoshi) for a more comprehe
 The main goal of this library is to provide the parsed emoji dataset as an Elixir package.
 
 The approach of including the raw data set (either as text, json, or any format) and parsing it during runtime or during module compilation brings unnecessary dependencies and slows down application startup or application compilation times. This package aims to be as light as possible and currently contains no dependencies for production usage.
+
+The reason to place the data module separately from the functionality module is simply to keep it IDE-friendly, since working on the main [`Emoshi`](./lib/emoshi.ex) module while having the entire emoji dataset in the same file would be slow and a poor developer experience.
+
+### Code generation
+The full emoji dataset is downloaded from the official source via [`mix download_emojis`](./tasks/download_emojis.ex]). The file is then parsed and the data module is generated at [`Emoshi.Emoshis`](./lib/emoshi/emoshis.ex) via [`mix generate_emojis`](./tasks/generate_emojis.ex). An alias is available to run these 2 tasks as `mix download_and_generate`.
