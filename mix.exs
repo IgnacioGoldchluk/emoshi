@@ -2,11 +2,12 @@ defmodule Emoshi.MixProject do
   use Mix.Project
 
   @source_url "https://github.com/IgnacioGoldchluk/emoshi"
+  @version "0.1.0"
 
   def project do
     [
       app: :emoshi,
-      version: "0.1.0",
+      version: @version,
       elixir: "~> 1.14",
       elixirc_paths: elixirc_paths(Mix.env()),
       test_coverage: [
@@ -74,6 +75,7 @@ defmodule Emoshi.MixProject do
     [
       licenses: ["Apache-2.0"],
       maintainers: ["Ignacio Goldchluk"],
+      source_ref: "v#{@version}",
       link: %{"GitHub" => @source_url}
     ]
   end
