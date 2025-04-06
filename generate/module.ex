@@ -8,6 +8,8 @@ defmodule Emoshi.Generate.Module do
       |> Enum.group_by(& &1.group, & &1.subgroup)
       |> Map.new(fn {group, subgroup} -> {group, Enum.uniq(subgroup)} end)
 
+    emojis_strings = Enum.map(emojis, & &1.emoji) |> MapSet.new()
+
     module =
       quote do
         defmodule Emoshi.Emoshis do
@@ -23,6 +25,10 @@ defmodule Emoshi.Generate.Module do
 
           def emojis do
             unquote(Macro.escape(emojis))
+          end
+
+          def emojis_strings do
+            unquote(Macro.escape(emojis_strings))
           end
         end
       end

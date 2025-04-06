@@ -269,4 +269,20 @@ defmodule Emoshi do
   def find_by_emoji(emoji) when is_binary(emoji) do
     Enum.find(Emoshi.Emoshis.emojis(), fn %Emoshi{emoji: e} -> e == emoji end)
   end
+
+  @doc """
+  Returns whether a string is a single emoji
+
+  ## Examples
+
+      iex> Emoshi.emoji?("❤️‍🔥")
+      true
+
+      iex> Emoshi.emoji?("a🫨")
+      false
+  """
+  @spec emoji?(String.t()) :: boolean()
+  def emoji?(emoji) when is_binary(emoji) do
+    MapSet.member?(Emoshi.Emoshis.emojis_strings(), emoji)
+  end
 end

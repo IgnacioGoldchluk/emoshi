@@ -15,14 +15,14 @@ Add `emoshi` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:emoshi, "~> 0.1.1"}
+    {:emoshi, "~> 0.1.2"}
   ]
 end
 ```
 
 ## Basic usage
 
-1. Searching an emoji by name
+### Searching by name
 ```elixir
 iex> Emoshi.search("thumbs", take: 2)
 [
@@ -45,9 +45,9 @@ iex> Emoshi.search("thumbs", take: 2)
 ]
 ```
 
-2. Fuzzy search
+### Fuzzy search
 ```elixir
-iex(1)> Emoshi.closest("tubms up", take: 1)
+iex> Emoshi.closest("tubms up", take: 1)
 [
   %Emoshi{
     slug: "thumbs-up",
@@ -60,9 +60,9 @@ iex(1)> Emoshi.closest("tubms up", take: 1)
 ]
 ```
 
-3. Querying by group
+### Query by group and subgroups
 ```elixir
-iex(2)> Emoshi.for_subgroups("Travel & Places", "hotel")
+iex> Emoshi.for_subgroups("Travel & Places", "hotel")
 [
   %Emoshi{
     slug: "bellhop-bell",
@@ -81,6 +81,15 @@ iex(2)> Emoshi.for_subgroups("Travel & Places", "hotel")
     subgroup: "hotel"
   }
 ]
+```
+
+### Validation
+```elixir
+iex> Emoshi.emoji("❤️‍🔥")
+true
+
+iex> Emoshi.emoji("hi")
+false
 ```
 
 Refer to the [full documentation](https://hexdocs.pm/emoshi) for a more comprehensive description of the library's functionality
