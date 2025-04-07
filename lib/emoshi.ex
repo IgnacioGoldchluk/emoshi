@@ -29,7 +29,9 @@ defmodule Emoshi do
   end
 
   @doc """
-  Returns all `t:Emoshi.t/0` where the slug matches the input argument.
+  Returns all `t:Emoshi.t/0` where the slug (short code) fully or partially matches
+  the input.
+
   The function is case insensitive and normalizes whitespaces, tabs, etc. to hyphens.
 
   Unlike `closest/2`, it does not match emojis when there are spelling mistakes.
@@ -56,6 +58,18 @@ defmodule Emoshi do
         }
       ]
 
+      iex> Emoshi.search("thumbs_down", take: 1)
+      [
+        %Emoshi{
+          slug: "thumbs-down",
+          name: "thumbs down",
+          status: :fully_qualified,
+          emoji: "👎",
+          group: "People & Body",
+          subgroup: "hand-fingers-closed"
+        }
+      ]
+
       iex> Emoshi.search("THUMBS-UP")
       [
         %Emoshi{
@@ -65,6 +79,18 @@ defmodule Emoshi do
           emoji: "👍",
           group: "People & Body",
           subgroup: "hand-fingers-closed"
+        }
+      ]
+
+      iex> Emoshi.search("anxious")
+      [
+        %Emoshi{
+          slug: "anxious-face-with-sweat",
+          name: "anxious face with sweat",
+          status: :fully_qualified,
+          emoji: "😰",
+          group: "Smileys & Emotion",
+          subgroup: "face-concerned"
         }
       ]
 
@@ -84,8 +110,6 @@ defmodule Emoshi do
     |> Enum.take(take)
   end
 
-  # Duplicating the function here because the `Generate` modules are not
-  # included in runtime, and it's not worth moving to another place
   defp slugify(name) when is_binary(name) do
     name
     |> String.downcase()

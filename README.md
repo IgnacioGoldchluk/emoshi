@@ -103,3 +103,6 @@ The reason to place the data module separately from the functionality module is 
 
 ### Code generation
 The full emoji dataset is downloaded from the official source via [`mix download_emojis`](https://github.com/IgnacioGoldchluk/emoshi/blob/main/tasks/download_emojis.ex). The file is then parsed and the data module is generated at [`Emoshi.Emoshis`](https://github.com/IgnacioGoldchluk/emoshi/blob/main/lib/emoshi/emoshis.ex) via [`mix generate_emojis`](https://github.com/IgnacioGoldchluk/emoshi/blob/main/tasks/generate_emojis.ex). An alias is available to run these 2 tasks as `mix download_and_generate`.
+
+## About short codes and slugs
+Note that Unicode does not specify "short code" or "slug" field for emojis and the field is not standarized. This library uses the official name to generate a slug via [`Slug.slugify/2`](https://hexdocs.pm/slugify/Slug.html#slugify/2) which might yield a different result from the most common known short names. For example "😀" is "grinning_face" in some systems and "grinning" in others.

@@ -74,24 +74,23 @@ defmodule Emoshi.Generate.Emoshi do
       "keycap-number-sign"
 
       iex> Emoshi.Generate.Emoshi.slugify("keycap: *")
-      "keycap-asterik"
+      "keycap-asterisk"
 
       iex> Emoshi.Generate.Emoshi.slugify("flag: St. Pierre & Miquelon")
       "flag-st-pierre-miquelon"
+
+      iex> Emoshi.Generate.Emoshi.slugify("São Tomé & Príncipe")
+      "sao-tome-principe"
   """
   @spec slugify(String.t()) :: String.t()
   def slugify(name)
 
   # Special cases
   def slugify("keycap: #"), do: "keycap-number-sign"
-  def slugify("keycap: *"), do: "keycap-asterik"
+  def slugify("keycap: *"), do: "keycap-asterisk"
 
   def slugify(name) when is_binary(name) do
-    name
-    |> String.downcase()
-    |> String.normalize(:nfd)
-    |> String.replace(~r/[^a-z0-9\s-]/u, "  ")
-    |> String.replace(~r/[\s-]+/, "-")
+    Slug.slugify(name)
   end
 
   @doc """

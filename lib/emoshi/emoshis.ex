@@ -25925,7 +25925,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🕛",
         group: "Travel & Places",
         name: "twelve o’clock",
-        slug: "twelve-o-clock",
+        slug: "twelve-oclock",
         status: :fully_qualified,
         subgroup: "time"
       },
@@ -25943,7 +25943,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🕐",
         group: "Travel & Places",
         name: "one o’clock",
-        slug: "one-o-clock",
+        slug: "one-oclock",
         status: :fully_qualified,
         subgroup: "time"
       },
@@ -25961,7 +25961,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🕑",
         group: "Travel & Places",
         name: "two o’clock",
-        slug: "two-o-clock",
+        slug: "two-oclock",
         status: :fully_qualified,
         subgroup: "time"
       },
@@ -25979,7 +25979,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🕒",
         group: "Travel & Places",
         name: "three o’clock",
-        slug: "three-o-clock",
+        slug: "three-oclock",
         status: :fully_qualified,
         subgroup: "time"
       },
@@ -25997,7 +25997,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🕓",
         group: "Travel & Places",
         name: "four o’clock",
-        slug: "four-o-clock",
+        slug: "four-oclock",
         status: :fully_qualified,
         subgroup: "time"
       },
@@ -26015,7 +26015,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🕔",
         group: "Travel & Places",
         name: "five o’clock",
-        slug: "five-o-clock",
+        slug: "five-oclock",
         status: :fully_qualified,
         subgroup: "time"
       },
@@ -26033,7 +26033,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🕕",
         group: "Travel & Places",
         name: "six o’clock",
-        slug: "six-o-clock",
+        slug: "six-oclock",
         status: :fully_qualified,
         subgroup: "time"
       },
@@ -26051,7 +26051,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🕖",
         group: "Travel & Places",
         name: "seven o’clock",
-        slug: "seven-o-clock",
+        slug: "seven-oclock",
         status: :fully_qualified,
         subgroup: "time"
       },
@@ -26069,7 +26069,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🕗",
         group: "Travel & Places",
         name: "eight o’clock",
-        slug: "eight-o-clock",
+        slug: "eight-oclock",
         status: :fully_qualified,
         subgroup: "time"
       },
@@ -26087,7 +26087,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🕘",
         group: "Travel & Places",
         name: "nine o’clock",
-        slug: "nine-o-clock",
+        slug: "nine-oclock",
         status: :fully_qualified,
         subgroup: "time"
       },
@@ -26105,7 +26105,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🕙",
         group: "Travel & Places",
         name: "ten o’clock",
-        slug: "ten-o-clock",
+        slug: "ten-oclock",
         status: :fully_qualified,
         subgroup: "time"
       },
@@ -26123,7 +26123,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🕚",
         group: "Travel & Places",
         name: "eleven o’clock",
-        slug: "eleven-o-clock",
+        slug: "eleven-oclock",
         status: :fully_qualified,
         subgroup: "time"
       },
@@ -27167,7 +27167,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🪅",
         group: "Activities",
         name: "piñata",
-        slug: "pin-ata",
+        slug: "pinata",
         status: :fully_qualified,
         subgroup: "game"
       },
@@ -27500,7 +27500,7 @@ defmodule Emoshi.Emoshis do
         emoji: "👚",
         group: "Objects",
         name: "woman’s clothes",
-        slug: "woman-s-clothes",
+        slug: "womans-clothes",
         status: :fully_qualified,
         subgroup: "clothing"
       },
@@ -27572,7 +27572,7 @@ defmodule Emoshi.Emoshis do
         emoji: "👞",
         group: "Objects",
         name: "man’s shoe",
-        slug: "man-s-shoe",
+        slug: "mans-shoe",
         status: :fully_qualified,
         subgroup: "clothing"
       },
@@ -27617,7 +27617,7 @@ defmodule Emoshi.Emoshis do
         emoji: "👡",
         group: "Objects",
         name: "woman’s sandal",
-        slug: "woman-s-sandal",
+        slug: "womans-sandal",
         status: :fully_qualified,
         subgroup: "clothing"
       },
@@ -27635,7 +27635,7 @@ defmodule Emoshi.Emoshis do
         emoji: "👢",
         group: "Objects",
         name: "woman’s boot",
-        slug: "woman-s-boot",
+        slug: "womans-boot",
         status: :fully_qualified,
         subgroup: "clothing"
       },
@@ -27662,7 +27662,7 @@ defmodule Emoshi.Emoshis do
         emoji: "👒",
         group: "Objects",
         name: "woman’s hat",
-        slug: "woman-s-hat",
+        slug: "womans-hat",
         status: :fully_qualified,
         subgroup: "clothing"
       },
@@ -27707,7 +27707,7 @@ defmodule Emoshi.Emoshis do
         emoji: "⛑️",
         group: "Objects",
         name: "rescue worker’s helmet",
-        slug: "rescue-worker-s-helmet",
+        slug: "rescue-workers-helmet",
         status: :fully_qualified,
         subgroup: "clothing"
       },
@@ -29741,7 +29741,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🚹",
         group: "Symbols",
         name: "men’s room",
-        slug: "men-s-room",
+        slug: "mens-room",
         status: :fully_qualified,
         subgroup: "transport-sign"
       },
@@ -29750,7 +29750,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🚺",
         group: "Symbols",
         name: "women’s room",
-        slug: "women-s-room",
+        slug: "womens-room",
         status: :fully_qualified,
         subgroup: "transport-sign"
       },
@@ -30956,7 +30956,7 @@ defmodule Emoshi.Emoshis do
         emoji: "*️⃣",
         group: "Symbols",
         name: "keycap: *",
-        slug: "keycap-asterik",
+        slug: "keycap-asterisk",
         status: :fully_qualified,
         subgroup: "keycap"
       },
@@ -31109,7 +31109,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🅰️",
         group: "Symbols",
         name: "A button (blood type)",
-        slug: "a-button-blood-type-",
+        slug: "a-button-blood-type",
         status: :fully_qualified,
         subgroup: "alphanum"
       },
@@ -31118,7 +31118,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🆎",
         group: "Symbols",
         name: "AB button (blood type)",
-        slug: "ab-button-blood-type-",
+        slug: "ab-button-blood-type",
         status: :fully_qualified,
         subgroup: "alphanum"
       },
@@ -31127,7 +31127,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🅱️",
         group: "Symbols",
         name: "B button (blood type)",
-        slug: "b-button-blood-type-",
+        slug: "b-button-blood-type",
         status: :fully_qualified,
         subgroup: "alphanum"
       },
@@ -31208,7 +31208,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🅾️",
         group: "Symbols",
         name: "O button (blood type)",
-        slug: "o-button-blood-type-",
+        slug: "o-button-blood-type",
         status: :fully_qualified,
         subgroup: "alphanum"
       },
@@ -31928,7 +31928,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🇦🇽",
         group: "Flags",
         name: "flag: Åland Islands",
-        slug: "flag-a-land-islands",
+        slug: "flag-aland-islands",
         status: :fully_qualified,
         subgroup: "country-flag"
       },
@@ -32027,7 +32027,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🇧🇱",
         group: "Flags",
         name: "flag: St. Barthélemy",
-        slug: "flag-st-barthe-lemy",
+        slug: "flag-st-barthelemy",
         status: :fully_qualified,
         subgroup: "country-flag"
       },
@@ -32189,7 +32189,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🇨🇮",
         group: "Flags",
         name: "flag: Côte d’Ivoire",
-        slug: "flag-co-te-d-ivoire",
+        slug: "flag-cote-divoire",
         status: :fully_qualified,
         subgroup: "country-flag"
       },
@@ -32288,7 +32288,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🇨🇼",
         group: "Flags",
         name: "flag: Curaçao",
-        slug: "flag-curac-ao",
+        slug: "flag-curacao",
         status: :fully_qualified,
         subgroup: "country-flag"
       },
@@ -33161,7 +33161,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🇲🇲",
         group: "Flags",
         name: "flag: Myanmar (Burma)",
-        slug: "flag-myanmar-burma-",
+        slug: "flag-myanmar-burma",
         status: :fully_qualified,
         subgroup: "country-flag"
       },
@@ -33539,7 +33539,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🇷🇪",
         group: "Flags",
         name: "flag: Réunion",
-        slug: "flag-re-union",
+        slug: "flag-reunion",
         status: :fully_qualified,
         subgroup: "country-flag"
       },
@@ -33728,7 +33728,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🇸🇹",
         group: "Flags",
         name: "flag: São Tomé & Príncipe",
-        slug: "flag-sa-o-tome-pri-ncipe",
+        slug: "flag-sao-tome-principe",
         status: :fully_qualified,
         subgroup: "country-flag"
       },
@@ -33881,7 +33881,7 @@ defmodule Emoshi.Emoshis do
         emoji: "🇹🇷",
         group: "Flags",
         name: "flag: Türkiye",
-        slug: "flag-tu-rkiye",
+        slug: "flag-turkiye",
         status: :fully_qualified,
         subgroup: "country-flag"
       },
