@@ -85,10 +85,10 @@ iex> Emoshi.for_subgroups("Travel & Places", "hotel")
 
 ### Validation
 ```elixir
-iex> Emoshi.emoji("❤️‍🔥")
+iex> Emoshi.emoji?("❤️‍🔥")
 true
 
-iex> Emoshi.emoji("hi")
+iex> Emoshi.emoji?("hi")
 false
 ```
 
