@@ -1,3 +1,8 @@
+## 0.1.3 [2025-04-08]
+
+* Use [Slugify](https://hex.pm/packages/slugify) for slug generation
+* Fix typo in hardcoded slug (asterik -> asterisk)
+
 ## 0.1.2 [2025-04-06]
 
 * Add `Emoshi.emoji?/1`
