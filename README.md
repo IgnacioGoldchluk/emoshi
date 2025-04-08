@@ -15,7 +15,7 @@ Add `emoshi` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:emoshi, "~> 0.1.2"}
+    {:emoshi, "~> 0.1.3"}
   ]
 end
 ```
