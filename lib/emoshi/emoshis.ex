@@ -1,7 +1,7 @@
 defmodule Emoshi.Emoshis do
   @moduledoc false
   def version do
-    "16.0"
+    "17.0"
   end
 
   def groups do
@@ -884,6 +884,15 @@ defmodule Emoshi.Emoshis do
       },
       %{
         __struct__: Emoshi,
+        emoji: "🫪",
+        group: "Smileys & Emotion",
+        name: "distorted face",
+        slug: "distorted-face",
+        status: :fully_qualified,
+        subgroup: "face-concerned"
+      },
+      %{
+        __struct__: Emoshi,
         emoji: "🥺",
         group: "Smileys & Emotion",
         name: "pleading face",
@@ -1536,6 +1545,15 @@ defmodule Emoshi.Emoshis do
         group: "Smileys & Emotion",
         name: "anger symbol",
         slug: "anger-symbol",
+        status: :fully_qualified,
+        subgroup: "emotion"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🫯",
+        group: "Smileys & Emotion",
+        name: "fight cloud",
+        slug: "fight-cloud",
         status: :fully_qualified,
         subgroup: "emotion"
       },
@@ -13547,6 +13565,15 @@ defmodule Emoshi.Emoshis do
       },
       %{
         __struct__: Emoshi,
+        emoji: "🫈",
+        group: "People & Body",
+        name: "hairy creature",
+        slug: "hairy-creature",
+        status: :fully_qualified,
+        subgroup: "person-fantasy"
+      },
+      %{
+        __struct__: Emoshi,
         emoji: "💆",
         group: "People & Body",
         name: "person getting massage",
@@ -15977,6 +16004,60 @@ defmodule Emoshi.Emoshis do
       },
       %{
         __struct__: Emoshi,
+        emoji: "🧑\u200D🩰",
+        group: "People & Body",
+        name: "ballet dancer",
+        slug: "ballet-dancer",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏻\u200D🩰",
+        group: "People & Body",
+        name: "ballet dancer: light skin tone",
+        slug: "ballet-dancer-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏼\u200D🩰",
+        group: "People & Body",
+        name: "ballet dancer: medium-light skin tone",
+        slug: "ballet-dancer-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏽\u200D🩰",
+        group: "People & Body",
+        name: "ballet dancer: medium skin tone",
+        slug: "ballet-dancer-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏾\u200D🩰",
+        group: "People & Body",
+        name: "ballet dancer: medium-dark skin tone",
+        slug: "ballet-dancer-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏿\u200D🩰",
+        group: "People & Body",
+        name: "ballet dancer: dark skin tone",
+        slug: "ballet-dancer-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
         emoji: "💃",
         group: "People & Body",
         name: "woman dancing",
@@ -16148,6 +16229,51 @@ defmodule Emoshi.Emoshis do
       },
       %{
         __struct__: Emoshi,
+        emoji: "👯🏻",
+        group: "People & Body",
+        name: "people with bunny ears: light skin tone",
+        slug: "people-with-bunny-ears-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👯🏼",
+        group: "People & Body",
+        name: "people with bunny ears: medium-light skin tone",
+        slug: "people-with-bunny-ears-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👯🏽",
+        group: "People & Body",
+        name: "people with bunny ears: medium skin tone",
+        slug: "people-with-bunny-ears-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👯🏾",
+        group: "People & Body",
+        name: "people with bunny ears: medium-dark skin tone",
+        slug: "people-with-bunny-ears-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👯🏿",
+        group: "People & Body",
+        name: "people with bunny ears: dark skin tone",
+        slug: "people-with-bunny-ears-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
         emoji: "👯\u200D♂️",
         group: "People & Body",
         name: "men with bunny ears",
@@ -16157,10 +16283,640 @@ defmodule Emoshi.Emoshis do
       },
       %{
         __struct__: Emoshi,
+        emoji: "👯🏻\u200D♂️",
+        group: "People & Body",
+        name: "men with bunny ears: light skin tone",
+        slug: "men-with-bunny-ears-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👯🏼\u200D♂️",
+        group: "People & Body",
+        name: "men with bunny ears: medium-light skin tone",
+        slug: "men-with-bunny-ears-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👯🏽\u200D♂️",
+        group: "People & Body",
+        name: "men with bunny ears: medium skin tone",
+        slug: "men-with-bunny-ears-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👯🏾\u200D♂️",
+        group: "People & Body",
+        name: "men with bunny ears: medium-dark skin tone",
+        slug: "men-with-bunny-ears-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👯🏿\u200D♂️",
+        group: "People & Body",
+        name: "men with bunny ears: dark skin tone",
+        slug: "men-with-bunny-ears-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
         emoji: "👯\u200D♀️",
         group: "People & Body",
         name: "women with bunny ears",
         slug: "women-with-bunny-ears",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👯🏻\u200D♀️",
+        group: "People & Body",
+        name: "women with bunny ears: light skin tone",
+        slug: "women-with-bunny-ears-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👯🏼\u200D♀️",
+        group: "People & Body",
+        name: "women with bunny ears: medium-light skin tone",
+        slug: "women-with-bunny-ears-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👯🏽\u200D♀️",
+        group: "People & Body",
+        name: "women with bunny ears: medium skin tone",
+        slug: "women-with-bunny-ears-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👯🏾\u200D♀️",
+        group: "People & Body",
+        name: "women with bunny ears: medium-dark skin tone",
+        slug: "women-with-bunny-ears-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👯🏿\u200D♀️",
+        group: "People & Body",
+        name: "women with bunny ears: dark skin tone",
+        slug: "women-with-bunny-ears-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏻\u200D🐰\u200D🧑🏼",
+        group: "People & Body",
+        name: "people with bunny ears: light skin tone, medium-light skin tone",
+        slug: "people-with-bunny-ears-light-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏻\u200D🐰\u200D🧑🏽",
+        group: "People & Body",
+        name: "people with bunny ears: light skin tone, medium skin tone",
+        slug: "people-with-bunny-ears-light-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏻\u200D🐰\u200D🧑🏾",
+        group: "People & Body",
+        name: "people with bunny ears: light skin tone, medium-dark skin tone",
+        slug: "people-with-bunny-ears-light-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏻\u200D🐰\u200D🧑🏿",
+        group: "People & Body",
+        name: "people with bunny ears: light skin tone, dark skin tone",
+        slug: "people-with-bunny-ears-light-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏼\u200D🐰\u200D🧑🏻",
+        group: "People & Body",
+        name: "people with bunny ears: medium-light skin tone, light skin tone",
+        slug: "people-with-bunny-ears-medium-light-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏼\u200D🐰\u200D🧑🏽",
+        group: "People & Body",
+        name: "people with bunny ears: medium-light skin tone, medium skin tone",
+        slug: "people-with-bunny-ears-medium-light-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏼\u200D🐰\u200D🧑🏾",
+        group: "People & Body",
+        name: "people with bunny ears: medium-light skin tone, medium-dark skin tone",
+        slug: "people-with-bunny-ears-medium-light-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏼\u200D🐰\u200D🧑🏿",
+        group: "People & Body",
+        name: "people with bunny ears: medium-light skin tone, dark skin tone",
+        slug: "people-with-bunny-ears-medium-light-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏽\u200D🐰\u200D🧑🏻",
+        group: "People & Body",
+        name: "people with bunny ears: medium skin tone, light skin tone",
+        slug: "people-with-bunny-ears-medium-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏽\u200D🐰\u200D🧑🏼",
+        group: "People & Body",
+        name: "people with bunny ears: medium skin tone, medium-light skin tone",
+        slug: "people-with-bunny-ears-medium-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏽\u200D🐰\u200D🧑🏾",
+        group: "People & Body",
+        name: "people with bunny ears: medium skin tone, medium-dark skin tone",
+        slug: "people-with-bunny-ears-medium-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏽\u200D🐰\u200D🧑🏿",
+        group: "People & Body",
+        name: "people with bunny ears: medium skin tone, dark skin tone",
+        slug: "people-with-bunny-ears-medium-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏾\u200D🐰\u200D🧑🏻",
+        group: "People & Body",
+        name: "people with bunny ears: medium-dark skin tone, light skin tone",
+        slug: "people-with-bunny-ears-medium-dark-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏾\u200D🐰\u200D🧑🏼",
+        group: "People & Body",
+        name: "people with bunny ears: medium-dark skin tone, medium-light skin tone",
+        slug: "people-with-bunny-ears-medium-dark-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏾\u200D🐰\u200D🧑🏽",
+        group: "People & Body",
+        name: "people with bunny ears: medium-dark skin tone, medium skin tone",
+        slug: "people-with-bunny-ears-medium-dark-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏾\u200D🐰\u200D🧑🏿",
+        group: "People & Body",
+        name: "people with bunny ears: medium-dark skin tone, dark skin tone",
+        slug: "people-with-bunny-ears-medium-dark-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏿\u200D🐰\u200D🧑🏻",
+        group: "People & Body",
+        name: "people with bunny ears: dark skin tone, light skin tone",
+        slug: "people-with-bunny-ears-dark-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏿\u200D🐰\u200D🧑🏼",
+        group: "People & Body",
+        name: "people with bunny ears: dark skin tone, medium-light skin tone",
+        slug: "people-with-bunny-ears-dark-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏿\u200D🐰\u200D🧑🏽",
+        group: "People & Body",
+        name: "people with bunny ears: dark skin tone, medium skin tone",
+        slug: "people-with-bunny-ears-dark-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏿\u200D🐰\u200D🧑🏾",
+        group: "People & Body",
+        name: "people with bunny ears: dark skin tone, medium-dark skin tone",
+        slug: "people-with-bunny-ears-dark-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏻\u200D🐰\u200D👨🏼",
+        group: "People & Body",
+        name: "men with bunny ears: light skin tone, medium-light skin tone",
+        slug: "men-with-bunny-ears-light-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏻\u200D🐰\u200D👨🏽",
+        group: "People & Body",
+        name: "men with bunny ears: light skin tone, medium skin tone",
+        slug: "men-with-bunny-ears-light-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏻\u200D🐰\u200D👨🏾",
+        group: "People & Body",
+        name: "men with bunny ears: light skin tone, medium-dark skin tone",
+        slug: "men-with-bunny-ears-light-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏻\u200D🐰\u200D👨🏿",
+        group: "People & Body",
+        name: "men with bunny ears: light skin tone, dark skin tone",
+        slug: "men-with-bunny-ears-light-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏼\u200D🐰\u200D👨🏻",
+        group: "People & Body",
+        name: "men with bunny ears: medium-light skin tone, light skin tone",
+        slug: "men-with-bunny-ears-medium-light-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏼\u200D🐰\u200D👨🏽",
+        group: "People & Body",
+        name: "men with bunny ears: medium-light skin tone, medium skin tone",
+        slug: "men-with-bunny-ears-medium-light-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏼\u200D🐰\u200D👨🏾",
+        group: "People & Body",
+        name: "men with bunny ears: medium-light skin tone, medium-dark skin tone",
+        slug: "men-with-bunny-ears-medium-light-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏼\u200D🐰\u200D👨🏿",
+        group: "People & Body",
+        name: "men with bunny ears: medium-light skin tone, dark skin tone",
+        slug: "men-with-bunny-ears-medium-light-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏽\u200D🐰\u200D👨🏻",
+        group: "People & Body",
+        name: "men with bunny ears: medium skin tone, light skin tone",
+        slug: "men-with-bunny-ears-medium-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏽\u200D🐰\u200D👨🏼",
+        group: "People & Body",
+        name: "men with bunny ears: medium skin tone, medium-light skin tone",
+        slug: "men-with-bunny-ears-medium-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏽\u200D🐰\u200D👨🏾",
+        group: "People & Body",
+        name: "men with bunny ears: medium skin tone, medium-dark skin tone",
+        slug: "men-with-bunny-ears-medium-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏽\u200D🐰\u200D👨🏿",
+        group: "People & Body",
+        name: "men with bunny ears: medium skin tone, dark skin tone",
+        slug: "men-with-bunny-ears-medium-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏾\u200D🐰\u200D👨🏻",
+        group: "People & Body",
+        name: "men with bunny ears: medium-dark skin tone, light skin tone",
+        slug: "men-with-bunny-ears-medium-dark-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏾\u200D🐰\u200D👨🏼",
+        group: "People & Body",
+        name: "men with bunny ears: medium-dark skin tone, medium-light skin tone",
+        slug: "men-with-bunny-ears-medium-dark-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏾\u200D🐰\u200D👨🏽",
+        group: "People & Body",
+        name: "men with bunny ears: medium-dark skin tone, medium skin tone",
+        slug: "men-with-bunny-ears-medium-dark-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏾\u200D🐰\u200D👨🏿",
+        group: "People & Body",
+        name: "men with bunny ears: medium-dark skin tone, dark skin tone",
+        slug: "men-with-bunny-ears-medium-dark-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏿\u200D🐰\u200D👨🏻",
+        group: "People & Body",
+        name: "men with bunny ears: dark skin tone, light skin tone",
+        slug: "men-with-bunny-ears-dark-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏿\u200D🐰\u200D👨🏼",
+        group: "People & Body",
+        name: "men with bunny ears: dark skin tone, medium-light skin tone",
+        slug: "men-with-bunny-ears-dark-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏿\u200D🐰\u200D👨🏽",
+        group: "People & Body",
+        name: "men with bunny ears: dark skin tone, medium skin tone",
+        slug: "men-with-bunny-ears-dark-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏿\u200D🐰\u200D👨🏾",
+        group: "People & Body",
+        name: "men with bunny ears: dark skin tone, medium-dark skin tone",
+        slug: "men-with-bunny-ears-dark-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏻\u200D🐰\u200D👩🏼",
+        group: "People & Body",
+        name: "women with bunny ears: light skin tone, medium-light skin tone",
+        slug: "women-with-bunny-ears-light-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏻\u200D🐰\u200D👩🏽",
+        group: "People & Body",
+        name: "women with bunny ears: light skin tone, medium skin tone",
+        slug: "women-with-bunny-ears-light-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏻\u200D🐰\u200D👩🏾",
+        group: "People & Body",
+        name: "women with bunny ears: light skin tone, medium-dark skin tone",
+        slug: "women-with-bunny-ears-light-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏻\u200D🐰\u200D👩🏿",
+        group: "People & Body",
+        name: "women with bunny ears: light skin tone, dark skin tone",
+        slug: "women-with-bunny-ears-light-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏼\u200D🐰\u200D👩🏻",
+        group: "People & Body",
+        name: "women with bunny ears: medium-light skin tone, light skin tone",
+        slug: "women-with-bunny-ears-medium-light-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏼\u200D🐰\u200D👩🏽",
+        group: "People & Body",
+        name: "women with bunny ears: medium-light skin tone, medium skin tone",
+        slug: "women-with-bunny-ears-medium-light-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏼\u200D🐰\u200D👩🏾",
+        group: "People & Body",
+        name: "women with bunny ears: medium-light skin tone, medium-dark skin tone",
+        slug: "women-with-bunny-ears-medium-light-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏼\u200D🐰\u200D👩🏿",
+        group: "People & Body",
+        name: "women with bunny ears: medium-light skin tone, dark skin tone",
+        slug: "women-with-bunny-ears-medium-light-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏽\u200D🐰\u200D👩🏻",
+        group: "People & Body",
+        name: "women with bunny ears: medium skin tone, light skin tone",
+        slug: "women-with-bunny-ears-medium-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏽\u200D🐰\u200D👩🏼",
+        group: "People & Body",
+        name: "women with bunny ears: medium skin tone, medium-light skin tone",
+        slug: "women-with-bunny-ears-medium-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏽\u200D🐰\u200D👩🏾",
+        group: "People & Body",
+        name: "women with bunny ears: medium skin tone, medium-dark skin tone",
+        slug: "women-with-bunny-ears-medium-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏽\u200D🐰\u200D👩🏿",
+        group: "People & Body",
+        name: "women with bunny ears: medium skin tone, dark skin tone",
+        slug: "women-with-bunny-ears-medium-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏾\u200D🐰\u200D👩🏻",
+        group: "People & Body",
+        name: "women with bunny ears: medium-dark skin tone, light skin tone",
+        slug: "women-with-bunny-ears-medium-dark-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏾\u200D🐰\u200D👩🏼",
+        group: "People & Body",
+        name: "women with bunny ears: medium-dark skin tone, medium-light skin tone",
+        slug: "women-with-bunny-ears-medium-dark-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏾\u200D🐰\u200D👩🏽",
+        group: "People & Body",
+        name: "women with bunny ears: medium-dark skin tone, medium skin tone",
+        slug: "women-with-bunny-ears-medium-dark-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏾\u200D🐰\u200D👩🏿",
+        group: "People & Body",
+        name: "women with bunny ears: medium-dark skin tone, dark skin tone",
+        slug: "women-with-bunny-ears-medium-dark-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏿\u200D🐰\u200D👩🏻",
+        group: "People & Body",
+        name: "women with bunny ears: dark skin tone, light skin tone",
+        slug: "women-with-bunny-ears-dark-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏿\u200D🐰\u200D👩🏼",
+        group: "People & Body",
+        name: "women with bunny ears: dark skin tone, medium-light skin tone",
+        slug: "women-with-bunny-ears-dark-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏿\u200D🐰\u200D👩🏽",
+        group: "People & Body",
+        name: "women with bunny ears: dark skin tone, medium skin tone",
+        slug: "women-with-bunny-ears-dark-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-activity"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏿\u200D🐰\u200D👩🏾",
+        group: "People & Body",
+        name: "women with bunny ears: dark skin tone, medium-dark skin tone",
+        slug: "women-with-bunny-ears-dark-skin-tone-medium-dark-skin-tone",
         status: :fully_qualified,
         subgroup: "person-activity"
       },
@@ -18083,6 +18839,51 @@ defmodule Emoshi.Emoshis do
       },
       %{
         __struct__: Emoshi,
+        emoji: "🤼🏻",
+        group: "People & Body",
+        name: "people wrestling: light skin tone",
+        slug: "people-wrestling-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🤼🏼",
+        group: "People & Body",
+        name: "people wrestling: medium-light skin tone",
+        slug: "people-wrestling-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🤼🏽",
+        group: "People & Body",
+        name: "people wrestling: medium skin tone",
+        slug: "people-wrestling-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🤼🏾",
+        group: "People & Body",
+        name: "people wrestling: medium-dark skin tone",
+        slug: "people-wrestling-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🤼🏿",
+        group: "People & Body",
+        name: "people wrestling: dark skin tone",
+        slug: "people-wrestling-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
         emoji: "🤼\u200D♂️",
         group: "People & Body",
         name: "men wrestling",
@@ -18092,10 +18893,640 @@ defmodule Emoshi.Emoshis do
       },
       %{
         __struct__: Emoshi,
+        emoji: "🤼🏻\u200D♂️",
+        group: "People & Body",
+        name: "men wrestling: light skin tone",
+        slug: "men-wrestling-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🤼🏼\u200D♂️",
+        group: "People & Body",
+        name: "men wrestling: medium-light skin tone",
+        slug: "men-wrestling-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🤼🏽\u200D♂️",
+        group: "People & Body",
+        name: "men wrestling: medium skin tone",
+        slug: "men-wrestling-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🤼🏾\u200D♂️",
+        group: "People & Body",
+        name: "men wrestling: medium-dark skin tone",
+        slug: "men-wrestling-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🤼🏿\u200D♂️",
+        group: "People & Body",
+        name: "men wrestling: dark skin tone",
+        slug: "men-wrestling-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
         emoji: "🤼\u200D♀️",
         group: "People & Body",
         name: "women wrestling",
         slug: "women-wrestling",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🤼🏻\u200D♀️",
+        group: "People & Body",
+        name: "women wrestling: light skin tone",
+        slug: "women-wrestling-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🤼🏼\u200D♀️",
+        group: "People & Body",
+        name: "women wrestling: medium-light skin tone",
+        slug: "women-wrestling-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🤼🏽\u200D♀️",
+        group: "People & Body",
+        name: "women wrestling: medium skin tone",
+        slug: "women-wrestling-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🤼🏾\u200D♀️",
+        group: "People & Body",
+        name: "women wrestling: medium-dark skin tone",
+        slug: "women-wrestling-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🤼🏿\u200D♀️",
+        group: "People & Body",
+        name: "women wrestling: dark skin tone",
+        slug: "women-wrestling-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏻\u200D🫯\u200D🧑🏼",
+        group: "People & Body",
+        name: "people wrestling: light skin tone, medium-light skin tone",
+        slug: "people-wrestling-light-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏻\u200D🫯\u200D🧑🏽",
+        group: "People & Body",
+        name: "people wrestling: light skin tone, medium skin tone",
+        slug: "people-wrestling-light-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏻\u200D🫯\u200D🧑🏾",
+        group: "People & Body",
+        name: "people wrestling: light skin tone, medium-dark skin tone",
+        slug: "people-wrestling-light-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏻\u200D🫯\u200D🧑🏿",
+        group: "People & Body",
+        name: "people wrestling: light skin tone, dark skin tone",
+        slug: "people-wrestling-light-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏼\u200D🫯\u200D🧑🏻",
+        group: "People & Body",
+        name: "people wrestling: medium-light skin tone, light skin tone",
+        slug: "people-wrestling-medium-light-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏼\u200D🫯\u200D🧑🏽",
+        group: "People & Body",
+        name: "people wrestling: medium-light skin tone, medium skin tone",
+        slug: "people-wrestling-medium-light-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏼\u200D🫯\u200D🧑🏾",
+        group: "People & Body",
+        name: "people wrestling: medium-light skin tone, medium-dark skin tone",
+        slug: "people-wrestling-medium-light-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏼\u200D🫯\u200D🧑🏿",
+        group: "People & Body",
+        name: "people wrestling: medium-light skin tone, dark skin tone",
+        slug: "people-wrestling-medium-light-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏽\u200D🫯\u200D🧑🏻",
+        group: "People & Body",
+        name: "people wrestling: medium skin tone, light skin tone",
+        slug: "people-wrestling-medium-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏽\u200D🫯\u200D🧑🏼",
+        group: "People & Body",
+        name: "people wrestling: medium skin tone, medium-light skin tone",
+        slug: "people-wrestling-medium-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏽\u200D🫯\u200D🧑🏾",
+        group: "People & Body",
+        name: "people wrestling: medium skin tone, medium-dark skin tone",
+        slug: "people-wrestling-medium-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏽\u200D🫯\u200D🧑🏿",
+        group: "People & Body",
+        name: "people wrestling: medium skin tone, dark skin tone",
+        slug: "people-wrestling-medium-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏾\u200D🫯\u200D🧑🏻",
+        group: "People & Body",
+        name: "people wrestling: medium-dark skin tone, light skin tone",
+        slug: "people-wrestling-medium-dark-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏾\u200D🫯\u200D🧑🏼",
+        group: "People & Body",
+        name: "people wrestling: medium-dark skin tone, medium-light skin tone",
+        slug: "people-wrestling-medium-dark-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏾\u200D🫯\u200D🧑🏽",
+        group: "People & Body",
+        name: "people wrestling: medium-dark skin tone, medium skin tone",
+        slug: "people-wrestling-medium-dark-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏾\u200D🫯\u200D🧑🏿",
+        group: "People & Body",
+        name: "people wrestling: medium-dark skin tone, dark skin tone",
+        slug: "people-wrestling-medium-dark-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏿\u200D🫯\u200D🧑🏻",
+        group: "People & Body",
+        name: "people wrestling: dark skin tone, light skin tone",
+        slug: "people-wrestling-dark-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏿\u200D🫯\u200D🧑🏼",
+        group: "People & Body",
+        name: "people wrestling: dark skin tone, medium-light skin tone",
+        slug: "people-wrestling-dark-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏿\u200D🫯\u200D🧑🏽",
+        group: "People & Body",
+        name: "people wrestling: dark skin tone, medium skin tone",
+        slug: "people-wrestling-dark-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🧑🏿\u200D🫯\u200D🧑🏾",
+        group: "People & Body",
+        name: "people wrestling: dark skin tone, medium-dark skin tone",
+        slug: "people-wrestling-dark-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏻\u200D🫯\u200D👨🏼",
+        group: "People & Body",
+        name: "men wrestling: light skin tone, medium-light skin tone",
+        slug: "men-wrestling-light-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏻\u200D🫯\u200D👨🏽",
+        group: "People & Body",
+        name: "men wrestling: light skin tone, medium skin tone",
+        slug: "men-wrestling-light-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏻\u200D🫯\u200D👨🏾",
+        group: "People & Body",
+        name: "men wrestling: light skin tone, medium-dark skin tone",
+        slug: "men-wrestling-light-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏻\u200D🫯\u200D👨🏿",
+        group: "People & Body",
+        name: "men wrestling: light skin tone, dark skin tone",
+        slug: "men-wrestling-light-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏼\u200D🫯\u200D👨🏻",
+        group: "People & Body",
+        name: "men wrestling: medium-light skin tone, light skin tone",
+        slug: "men-wrestling-medium-light-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏼\u200D🫯\u200D👨🏽",
+        group: "People & Body",
+        name: "men wrestling: medium-light skin tone, medium skin tone",
+        slug: "men-wrestling-medium-light-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏼\u200D🫯\u200D👨🏾",
+        group: "People & Body",
+        name: "men wrestling: medium-light skin tone, medium-dark skin tone",
+        slug: "men-wrestling-medium-light-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏼\u200D🫯\u200D👨🏿",
+        group: "People & Body",
+        name: "men wrestling: medium-light skin tone, dark skin tone",
+        slug: "men-wrestling-medium-light-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏽\u200D🫯\u200D👨🏻",
+        group: "People & Body",
+        name: "men wrestling: medium skin tone, light skin tone",
+        slug: "men-wrestling-medium-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏽\u200D🫯\u200D👨🏼",
+        group: "People & Body",
+        name: "men wrestling: medium skin tone, medium-light skin tone",
+        slug: "men-wrestling-medium-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏽\u200D🫯\u200D👨🏾",
+        group: "People & Body",
+        name: "men wrestling: medium skin tone, medium-dark skin tone",
+        slug: "men-wrestling-medium-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏽\u200D🫯\u200D👨🏿",
+        group: "People & Body",
+        name: "men wrestling: medium skin tone, dark skin tone",
+        slug: "men-wrestling-medium-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏾\u200D🫯\u200D👨🏻",
+        group: "People & Body",
+        name: "men wrestling: medium-dark skin tone, light skin tone",
+        slug: "men-wrestling-medium-dark-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏾\u200D🫯\u200D👨🏼",
+        group: "People & Body",
+        name: "men wrestling: medium-dark skin tone, medium-light skin tone",
+        slug: "men-wrestling-medium-dark-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏾\u200D🫯\u200D👨🏽",
+        group: "People & Body",
+        name: "men wrestling: medium-dark skin tone, medium skin tone",
+        slug: "men-wrestling-medium-dark-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏾\u200D🫯\u200D👨🏿",
+        group: "People & Body",
+        name: "men wrestling: medium-dark skin tone, dark skin tone",
+        slug: "men-wrestling-medium-dark-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏿\u200D🫯\u200D👨🏻",
+        group: "People & Body",
+        name: "men wrestling: dark skin tone, light skin tone",
+        slug: "men-wrestling-dark-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏿\u200D🫯\u200D👨🏼",
+        group: "People & Body",
+        name: "men wrestling: dark skin tone, medium-light skin tone",
+        slug: "men-wrestling-dark-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏿\u200D🫯\u200D👨🏽",
+        group: "People & Body",
+        name: "men wrestling: dark skin tone, medium skin tone",
+        slug: "men-wrestling-dark-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👨🏿\u200D🫯\u200D👨🏾",
+        group: "People & Body",
+        name: "men wrestling: dark skin tone, medium-dark skin tone",
+        slug: "men-wrestling-dark-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏻\u200D🫯\u200D👩🏼",
+        group: "People & Body",
+        name: "women wrestling: light skin tone, medium-light skin tone",
+        slug: "women-wrestling-light-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏻\u200D🫯\u200D👩🏽",
+        group: "People & Body",
+        name: "women wrestling: light skin tone, medium skin tone",
+        slug: "women-wrestling-light-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏻\u200D🫯\u200D👩🏾",
+        group: "People & Body",
+        name: "women wrestling: light skin tone, medium-dark skin tone",
+        slug: "women-wrestling-light-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏻\u200D🫯\u200D👩🏿",
+        group: "People & Body",
+        name: "women wrestling: light skin tone, dark skin tone",
+        slug: "women-wrestling-light-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏼\u200D🫯\u200D👩🏻",
+        group: "People & Body",
+        name: "women wrestling: medium-light skin tone, light skin tone",
+        slug: "women-wrestling-medium-light-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏼\u200D🫯\u200D👩🏽",
+        group: "People & Body",
+        name: "women wrestling: medium-light skin tone, medium skin tone",
+        slug: "women-wrestling-medium-light-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏼\u200D🫯\u200D👩🏾",
+        group: "People & Body",
+        name: "women wrestling: medium-light skin tone, medium-dark skin tone",
+        slug: "women-wrestling-medium-light-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏼\u200D🫯\u200D👩🏿",
+        group: "People & Body",
+        name: "women wrestling: medium-light skin tone, dark skin tone",
+        slug: "women-wrestling-medium-light-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏽\u200D🫯\u200D👩🏻",
+        group: "People & Body",
+        name: "women wrestling: medium skin tone, light skin tone",
+        slug: "women-wrestling-medium-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏽\u200D🫯\u200D👩🏼",
+        group: "People & Body",
+        name: "women wrestling: medium skin tone, medium-light skin tone",
+        slug: "women-wrestling-medium-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏽\u200D🫯\u200D👩🏾",
+        group: "People & Body",
+        name: "women wrestling: medium skin tone, medium-dark skin tone",
+        slug: "women-wrestling-medium-skin-tone-medium-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏽\u200D🫯\u200D👩🏿",
+        group: "People & Body",
+        name: "women wrestling: medium skin tone, dark skin tone",
+        slug: "women-wrestling-medium-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏾\u200D🫯\u200D👩🏻",
+        group: "People & Body",
+        name: "women wrestling: medium-dark skin tone, light skin tone",
+        slug: "women-wrestling-medium-dark-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏾\u200D🫯\u200D👩🏼",
+        group: "People & Body",
+        name: "women wrestling: medium-dark skin tone, medium-light skin tone",
+        slug: "women-wrestling-medium-dark-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏾\u200D🫯\u200D👩🏽",
+        group: "People & Body",
+        name: "women wrestling: medium-dark skin tone, medium skin tone",
+        slug: "women-wrestling-medium-dark-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏾\u200D🫯\u200D👩🏿",
+        group: "People & Body",
+        name: "women wrestling: medium-dark skin tone, dark skin tone",
+        slug: "women-wrestling-medium-dark-skin-tone-dark-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏿\u200D🫯\u200D👩🏻",
+        group: "People & Body",
+        name: "women wrestling: dark skin tone, light skin tone",
+        slug: "women-wrestling-dark-skin-tone-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏿\u200D🫯\u200D👩🏼",
+        group: "People & Body",
+        name: "women wrestling: dark skin tone, medium-light skin tone",
+        slug: "women-wrestling-dark-skin-tone-medium-light-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏿\u200D🫯\u200D👩🏽",
+        group: "People & Body",
+        name: "women wrestling: dark skin tone, medium skin tone",
+        slug: "women-wrestling-dark-skin-tone-medium-skin-tone",
+        status: :fully_qualified,
+        subgroup: "person-sport"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "👩🏿\u200D🫯\u200D👩🏾",
+        group: "People & Body",
+        name: "women wrestling: dark skin tone, medium-dark skin tone",
+        slug: "women-wrestling-dark-skin-tone-medium-dark-skin-tone",
         status: :fully_qualified,
         subgroup: "person-sport"
       },
@@ -22889,6 +24320,15 @@ defmodule Emoshi.Emoshis do
       },
       %{
         __struct__: Emoshi,
+        emoji: "🫍",
+        group: "Animals & Nature",
+        name: "orca",
+        slug: "orca",
+        status: :fully_qualified,
+        subgroup: "animal-marine"
+      },
+      %{
+        __struct__: Emoshi,
         emoji: "🦭",
         group: "Animals & Nature",
         name: "seal",
@@ -24675,6 +26115,15 @@ defmodule Emoshi.Emoshis do
         group: "Travel & Places",
         name: "mountain",
         slug: "mountain",
+        status: :fully_qualified,
+        subgroup: "place-geographic"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🛘",
+        group: "Travel & Places",
+        name: "landslide",
+        slug: "landslide",
         status: :fully_qualified,
         subgroup: "place-geographic"
       },
@@ -27920,6 +29369,24 @@ defmodule Emoshi.Emoshis do
       },
       %{
         __struct__: Emoshi,
+        emoji: "🎺",
+        group: "Objects",
+        name: "trumpet",
+        slug: "trumpet",
+        status: :fully_qualified,
+        subgroup: "musical-instrument"
+      },
+      %{
+        __struct__: Emoshi,
+        emoji: "🪊",
+        group: "Objects",
+        name: "trombone",
+        slug: "trombone",
+        status: :fully_qualified,
+        subgroup: "musical-instrument"
+      },
+      %{
+        __struct__: Emoshi,
         emoji: "🪗",
         group: "Objects",
         name: "accordion",
@@ -27942,15 +29409,6 @@ defmodule Emoshi.Emoshis do
         group: "Objects",
         name: "musical keyboard",
         slug: "musical-keyboard",
-        status: :fully_qualified,
-        subgroup: "musical-instrument"
-      },
-      %{
-        __struct__: Emoshi,
-        emoji: "🎺",
-        group: "Objects",
-        name: "trumpet",
-        slug: "trumpet",
         status: :fully_qualified,
         subgroup: "musical-instrument"
       },
@@ -28496,6 +29954,15 @@ defmodule Emoshi.Emoshis do
       },
       %{
         __struct__: Emoshi,
+        emoji: "🪙",
+        group: "Objects",
+        name: "coin",
+        slug: "coin",
+        status: :fully_qualified,
+        subgroup: "money"
+      },
+      %{
+        __struct__: Emoshi,
         emoji: "💰",
         group: "Objects",
         name: "money bag",
@@ -28505,10 +29972,10 @@ defmodule Emoshi.Emoshis do
       },
       %{
         __struct__: Emoshi,
-        emoji: "🪙",
+        emoji: "🪎",
         group: "Objects",
-        name: "coin",
-        slug: "coin",
+        name: "treasure chest",
+        slug: "treasure-chest",
         status: :fully_qualified,
         subgroup: "money"
       },
@@ -35290,6 +36757,10 @@ defmodule Emoshi.Emoshis do
         "👨🏻\u200D🎨" => [],
         "👨🏻\u200D🏫" => [],
         "👨🏻\u200D🏭" => [],
+        "👨🏻\u200D🐰\u200D👨🏼" => [],
+        "👨🏻\u200D🐰\u200D👨🏽" => [],
+        "👨🏻\u200D🐰\u200D👨🏾" => [],
+        "👨🏻\u200D🐰\u200D👨🏿" => [],
         "👨🏻\u200D💻" => [],
         "👨🏻\u200D💼" => [],
         "👨🏻\u200D🔧" => [],
@@ -35310,6 +36781,10 @@ defmodule Emoshi.Emoshis do
         "👨🏻\u200D🦼\u200D➡️" => [],
         "👨🏻\u200D🦽" => [],
         "👨🏻\u200D🦽\u200D➡️" => [],
+        "👨🏻\u200D🫯\u200D👨🏼" => [],
+        "👨🏻\u200D🫯\u200D👨🏽" => [],
+        "👨🏻\u200D🫯\u200D👨🏾" => [],
+        "👨🏻\u200D🫯\u200D👨🏿" => [],
         "👨🏼" => [],
         "👨🏼\u200D⚕️" => [],
         "👨🏼\u200D⚖️" => [],
@@ -35332,6 +36807,10 @@ defmodule Emoshi.Emoshis do
         "👨🏼\u200D🎨" => [],
         "👨🏼\u200D🏫" => [],
         "👨🏼\u200D🏭" => [],
+        "👨🏼\u200D🐰\u200D👨🏻" => [],
+        "👨🏼\u200D🐰\u200D👨🏽" => [],
+        "👨🏼\u200D🐰\u200D👨🏾" => [],
+        "👨🏼\u200D🐰\u200D👨🏿" => [],
         "👨🏼\u200D💻" => [],
         "👨🏼\u200D💼" => [],
         "👨🏼\u200D🔧" => [],
@@ -35352,6 +36831,10 @@ defmodule Emoshi.Emoshis do
         "👨🏼\u200D🦼\u200D➡️" => [],
         "👨🏼\u200D🦽" => [],
         "👨🏼\u200D🦽\u200D➡️" => [],
+        "👨🏼\u200D🫯\u200D👨🏻" => [],
+        "👨🏼\u200D🫯\u200D👨🏽" => [],
+        "👨🏼\u200D🫯\u200D👨🏾" => [],
+        "👨🏼\u200D🫯\u200D👨🏿" => [],
         "👨🏽" => [],
         "👨🏽\u200D⚕️" => [],
         "👨🏽\u200D⚖️" => [],
@@ -35374,6 +36857,10 @@ defmodule Emoshi.Emoshis do
         "👨🏽\u200D🎨" => [],
         "👨🏽\u200D🏫" => [],
         "👨🏽\u200D🏭" => [],
+        "👨🏽\u200D🐰\u200D👨🏻" => [],
+        "👨🏽\u200D🐰\u200D👨🏼" => [],
+        "👨🏽\u200D🐰\u200D👨🏾" => [],
+        "👨🏽\u200D🐰\u200D👨🏿" => [],
         "👨🏽\u200D💻" => [],
         "👨🏽\u200D💼" => [],
         "👨🏽\u200D🔧" => [],
@@ -35394,6 +36881,10 @@ defmodule Emoshi.Emoshis do
         "👨🏽\u200D🦼\u200D➡️" => [],
         "👨🏽\u200D🦽" => [],
         "👨🏽\u200D🦽\u200D➡️" => [],
+        "👨🏽\u200D🫯\u200D👨🏻" => [],
+        "👨🏽\u200D🫯\u200D👨🏼" => [],
+        "👨🏽\u200D🫯\u200D👨🏾" => [],
+        "👨🏽\u200D🫯\u200D👨🏿" => [],
         "👨🏾" => [],
         "👨🏾\u200D⚕️" => [],
         "👨🏾\u200D⚖️" => [],
@@ -35416,6 +36907,10 @@ defmodule Emoshi.Emoshis do
         "👨🏾\u200D🎨" => [],
         "👨🏾\u200D🏫" => [],
         "👨🏾\u200D🏭" => [],
+        "👨🏾\u200D🐰\u200D👨🏻" => [],
+        "👨🏾\u200D🐰\u200D👨🏼" => [],
+        "👨🏾\u200D🐰\u200D👨🏽" => [],
+        "👨🏾\u200D🐰\u200D👨🏿" => [],
         "👨🏾\u200D💻" => [],
         "👨🏾\u200D💼" => [],
         "👨🏾\u200D🔧" => [],
@@ -35436,6 +36931,10 @@ defmodule Emoshi.Emoshis do
         "👨🏾\u200D🦼\u200D➡️" => [],
         "👨🏾\u200D🦽" => [],
         "👨🏾\u200D🦽\u200D➡️" => [],
+        "👨🏾\u200D🫯\u200D👨🏻" => [],
+        "👨🏾\u200D🫯\u200D👨🏼" => [],
+        "👨🏾\u200D🫯\u200D👨🏽" => [],
+        "👨🏾\u200D🫯\u200D👨🏿" => [],
         "👨🏿" => [],
         "👨🏿\u200D⚕️" => [],
         "👨🏿\u200D⚖️" => [],
@@ -35458,6 +36957,10 @@ defmodule Emoshi.Emoshis do
         "👨🏿\u200D🎨" => [],
         "👨🏿\u200D🏫" => [],
         "👨🏿\u200D🏭" => [],
+        "👨🏿\u200D🐰\u200D👨🏻" => [],
+        "👨🏿\u200D🐰\u200D👨🏼" => [],
+        "👨🏿\u200D🐰\u200D👨🏽" => [],
+        "👨🏿\u200D🐰\u200D👨🏾" => [],
         "👨🏿\u200D💻" => [],
         "👨🏿\u200D💼" => [],
         "👨🏿\u200D🔧" => [],
@@ -35478,6 +36981,10 @@ defmodule Emoshi.Emoshis do
         "👨🏿\u200D🦼\u200D➡️" => [],
         "👨🏿\u200D🦽" => [],
         "👨🏿\u200D🦽\u200D➡️" => [],
+        "👨🏿\u200D🫯\u200D👨🏻" => [],
+        "👨🏿\u200D🫯\u200D👨🏼" => [],
+        "👨🏿\u200D🫯\u200D👨🏽" => [],
+        "👨🏿\u200D🫯\u200D👨🏾" => [],
         "👩" => [],
         "👩\u200D⚕️" => [],
         "👩\u200D⚖️" => [],
@@ -35552,6 +37059,10 @@ defmodule Emoshi.Emoshis do
         "👩🏻\u200D🎨" => [],
         "👩🏻\u200D🏫" => [],
         "👩🏻\u200D🏭" => [],
+        "👩🏻\u200D🐰\u200D👩🏼" => [],
+        "👩🏻\u200D🐰\u200D👩🏽" => [],
+        "👩🏻\u200D🐰\u200D👩🏾" => [],
+        "👩🏻\u200D🐰\u200D👩🏿" => [],
         "👩🏻\u200D💻" => [],
         "👩🏻\u200D💼" => [],
         "👩🏻\u200D🔧" => [],
@@ -35576,6 +37087,10 @@ defmodule Emoshi.Emoshis do
         "👩🏻\u200D🦼\u200D➡️" => [],
         "👩🏻\u200D🦽" => [],
         "👩🏻\u200D🦽\u200D➡️" => [],
+        "👩🏻\u200D🫯\u200D👩🏼" => [],
+        "👩🏻\u200D🫯\u200D👩🏽" => [],
+        "👩🏻\u200D🫯\u200D👩🏾" => [],
+        "👩🏻\u200D🫯\u200D👩🏿" => [],
         "👩🏼" => [],
         "👩🏼\u200D⚕️" => [],
         "👩🏼\u200D⚖️" => [],
@@ -35608,6 +37123,10 @@ defmodule Emoshi.Emoshis do
         "👩🏼\u200D🎨" => [],
         "👩🏼\u200D🏫" => [],
         "👩🏼\u200D🏭" => [],
+        "👩🏼\u200D🐰\u200D👩🏻" => [],
+        "👩🏼\u200D🐰\u200D👩🏽" => [],
+        "👩🏼\u200D🐰\u200D👩🏾" => [],
+        "👩🏼\u200D🐰\u200D👩🏿" => [],
         "👩🏼\u200D💻" => [],
         "👩🏼\u200D💼" => [],
         "👩🏼\u200D🔧" => [],
@@ -35632,6 +37151,10 @@ defmodule Emoshi.Emoshis do
         "👩🏼\u200D🦼\u200D➡️" => [],
         "👩🏼\u200D🦽" => [],
         "👩🏼\u200D🦽\u200D➡️" => [],
+        "👩🏼\u200D🫯\u200D👩🏻" => [],
+        "👩🏼\u200D🫯\u200D👩🏽" => [],
+        "👩🏼\u200D🫯\u200D👩🏾" => [],
+        "👩🏼\u200D🫯\u200D👩🏿" => [],
         "👩🏽" => [],
         "👩🏽\u200D⚕️" => [],
         "👩🏽\u200D⚖️" => [],
@@ -35664,6 +37187,10 @@ defmodule Emoshi.Emoshis do
         "👩🏽\u200D🎨" => [],
         "👩🏽\u200D🏫" => [],
         "👩🏽\u200D🏭" => [],
+        "👩🏽\u200D🐰\u200D👩🏻" => [],
+        "👩🏽\u200D🐰\u200D👩🏼" => [],
+        "👩🏽\u200D🐰\u200D👩🏾" => [],
+        "👩🏽\u200D🐰\u200D👩🏿" => [],
         "👩🏽\u200D💻" => [],
         "👩🏽\u200D💼" => [],
         "👩🏽\u200D🔧" => [],
@@ -35688,6 +37215,10 @@ defmodule Emoshi.Emoshis do
         "👩🏽\u200D🦼\u200D➡️" => [],
         "👩🏽\u200D🦽" => [],
         "👩🏽\u200D🦽\u200D➡️" => [],
+        "👩🏽\u200D🫯\u200D👩🏻" => [],
+        "👩🏽\u200D🫯\u200D👩🏼" => [],
+        "👩🏽\u200D🫯\u200D👩🏾" => [],
+        "👩🏽\u200D🫯\u200D👩🏿" => [],
         "👩🏾" => [],
         "👩🏾\u200D⚕️" => [],
         "👩🏾\u200D⚖️" => [],
@@ -35720,6 +37251,10 @@ defmodule Emoshi.Emoshis do
         "👩🏾\u200D🎨" => [],
         "👩🏾\u200D🏫" => [],
         "👩🏾\u200D🏭" => [],
+        "👩🏾\u200D🐰\u200D👩🏻" => [],
+        "👩🏾\u200D🐰\u200D👩🏼" => [],
+        "👩🏾\u200D🐰\u200D👩🏽" => [],
+        "👩🏾\u200D🐰\u200D👩🏿" => [],
         "👩🏾\u200D💻" => [],
         "👩🏾\u200D💼" => [],
         "👩🏾\u200D🔧" => [],
@@ -35744,6 +37279,10 @@ defmodule Emoshi.Emoshis do
         "👩🏾\u200D🦼\u200D➡️" => [],
         "👩🏾\u200D🦽" => [],
         "👩🏾\u200D🦽\u200D➡️" => [],
+        "👩🏾\u200D🫯\u200D👩🏻" => [],
+        "👩🏾\u200D🫯\u200D👩🏼" => [],
+        "👩🏾\u200D🫯\u200D👩🏽" => [],
+        "👩🏾\u200D🫯\u200D👩🏿" => [],
         "👩🏿" => [],
         "👩🏿\u200D⚕️" => [],
         "👩🏿\u200D⚖️" => [],
@@ -35776,6 +37315,10 @@ defmodule Emoshi.Emoshis do
         "👩🏿\u200D🎨" => [],
         "👩🏿\u200D🏫" => [],
         "👩🏿\u200D🏭" => [],
+        "👩🏿\u200D🐰\u200D👩🏻" => [],
+        "👩🏿\u200D🐰\u200D👩🏼" => [],
+        "👩🏿\u200D🐰\u200D👩🏽" => [],
+        "👩🏿\u200D🐰\u200D👩🏾" => [],
         "👩🏿\u200D💻" => [],
         "👩🏿\u200D💼" => [],
         "👩🏿\u200D🔧" => [],
@@ -35800,6 +37343,10 @@ defmodule Emoshi.Emoshis do
         "👩🏿\u200D🦼\u200D➡️" => [],
         "👩🏿\u200D🦽" => [],
         "👩🏿\u200D🦽\u200D➡️" => [],
+        "👩🏿\u200D🫯\u200D👩🏻" => [],
+        "👩🏿\u200D🫯\u200D👩🏼" => [],
+        "👩🏿\u200D🫯\u200D👩🏽" => [],
+        "👩🏿\u200D🫯\u200D👩🏾" => [],
         "👪" => [],
         "👫" => [],
         "👫🏻" => [],
@@ -35840,6 +37387,21 @@ defmodule Emoshi.Emoshis do
         "👯" => [],
         "👯\u200D♀️" => [],
         "👯\u200D♂️" => [],
+        "👯🏻" => [],
+        "👯🏻\u200D♀️" => [],
+        "👯🏻\u200D♂️" => [],
+        "👯🏼" => [],
+        "👯🏼\u200D♀️" => [],
+        "👯🏼\u200D♂️" => [],
+        "👯🏽" => [],
+        "👯🏽\u200D♀️" => [],
+        "👯🏽\u200D♂️" => [],
+        "👯🏾" => [],
+        "👯🏾\u200D♀️" => [],
+        "👯🏾\u200D♂️" => [],
+        "👯🏿" => [],
+        "👯🏿\u200D♀️" => [],
+        "👯🏿\u200D♂️" => [],
         "👰" => [],
         "👰\u200D♀️" => [],
         "👰\u200D♂️" => [],
@@ -36726,6 +38288,7 @@ defmodule Emoshi.Emoshis do
         "🛕" => [],
         "🛖" => [],
         "🛗" => [],
+        "🛘" => [],
         "🛜" => [],
         "🛝" => [],
         "🛞" => [],
@@ -36978,6 +38541,21 @@ defmodule Emoshi.Emoshis do
         "🤼" => [],
         "🤼\u200D♀️" => [],
         "🤼\u200D♂️" => [],
+        "🤼🏻" => [],
+        "🤼🏻\u200D♀️" => [],
+        "🤼🏻\u200D♂️" => [],
+        "🤼🏼" => [],
+        "🤼🏼\u200D♀️" => [],
+        "🤼🏼\u200D♂️" => [],
+        "🤼🏽" => [],
+        "🤼🏽\u200D♀️" => [],
+        "🤼🏽\u200D♂️" => [],
+        "🤼🏾" => [],
+        "🤼🏾\u200D♀️" => [],
+        "🤼🏾\u200D♂️" => [],
+        "🤼🏿" => [],
+        "🤼🏿\u200D♀️" => [],
+        "🤼🏿\u200D♂️" => [],
         "🤽" => [],
         "🤽\u200D♀️" => [],
         "🤽\u200D♂️" => [],
@@ -37312,6 +38890,7 @@ defmodule Emoshi.Emoshis do
         "🧑\u200D🧑\u200D🧒\u200D🧒" => [],
         "🧑\u200D🧒" => [],
         "🧑\u200D🧒\u200D🧒" => [],
+        "🧑\u200D🩰" => [],
         "🧑🏻" => [],
         "🧑🏻\u200D⚕️" => [],
         "🧑🏻\u200D⚖️" => [],
@@ -37333,6 +38912,10 @@ defmodule Emoshi.Emoshis do
         "🧑🏻\u200D🎨" => [],
         "🧑🏻\u200D🏫" => [],
         "🧑🏻\u200D🏭" => [],
+        "🧑🏻\u200D🐰\u200D🧑🏼" => [],
+        "🧑🏻\u200D🐰\u200D🧑🏽" => [],
+        "🧑🏻\u200D🐰\u200D🧑🏾" => [],
+        "🧑🏻\u200D🐰\u200D🧑🏿" => [],
         "🧑🏻\u200D💻" => [],
         "🧑🏻\u200D💼" => [],
         "🧑🏻\u200D🔧" => [],
@@ -37354,6 +38937,11 @@ defmodule Emoshi.Emoshis do
         "🧑🏻\u200D🦼\u200D➡️" => [],
         "🧑🏻\u200D🦽" => [],
         "🧑🏻\u200D🦽\u200D➡️" => [],
+        "🧑🏻\u200D🩰" => [],
+        "🧑🏻\u200D🫯\u200D🧑🏼" => [],
+        "🧑🏻\u200D🫯\u200D🧑🏽" => [],
+        "🧑🏻\u200D🫯\u200D🧑🏾" => [],
+        "🧑🏻\u200D🫯\u200D🧑🏿" => [],
         "🧑🏼" => [],
         "🧑🏼\u200D⚕️" => [],
         "🧑🏼\u200D⚖️" => [],
@@ -37375,6 +38963,10 @@ defmodule Emoshi.Emoshis do
         "🧑🏼\u200D🎨" => [],
         "🧑🏼\u200D🏫" => [],
         "🧑🏼\u200D🏭" => [],
+        "🧑🏼\u200D🐰\u200D🧑🏻" => [],
+        "🧑🏼\u200D🐰\u200D🧑🏽" => [],
+        "🧑🏼\u200D🐰\u200D🧑🏾" => [],
+        "🧑🏼\u200D🐰\u200D🧑🏿" => [],
         "🧑🏼\u200D💻" => [],
         "🧑🏼\u200D💼" => [],
         "🧑🏼\u200D🔧" => [],
@@ -37396,6 +38988,11 @@ defmodule Emoshi.Emoshis do
         "🧑🏼\u200D🦼\u200D➡️" => [],
         "🧑🏼\u200D🦽" => [],
         "🧑🏼\u200D🦽\u200D➡️" => [],
+        "🧑🏼\u200D🩰" => [],
+        "🧑🏼\u200D🫯\u200D🧑🏻" => [],
+        "🧑🏼\u200D🫯\u200D🧑🏽" => [],
+        "🧑🏼\u200D🫯\u200D🧑🏾" => [],
+        "🧑🏼\u200D🫯\u200D🧑🏿" => [],
         "🧑🏽" => [],
         "🧑🏽\u200D⚕️" => [],
         "🧑🏽\u200D⚖️" => [],
@@ -37417,6 +39014,10 @@ defmodule Emoshi.Emoshis do
         "🧑🏽\u200D🎨" => [],
         "🧑🏽\u200D🏫" => [],
         "🧑🏽\u200D🏭" => [],
+        "🧑🏽\u200D🐰\u200D🧑🏻" => [],
+        "🧑🏽\u200D🐰\u200D🧑🏼" => [],
+        "🧑🏽\u200D🐰\u200D🧑🏾" => [],
+        "🧑🏽\u200D🐰\u200D🧑🏿" => [],
         "🧑🏽\u200D💻" => [],
         "🧑🏽\u200D💼" => [],
         "🧑🏽\u200D🔧" => [],
@@ -37438,6 +39039,11 @@ defmodule Emoshi.Emoshis do
         "🧑🏽\u200D🦼\u200D➡️" => [],
         "🧑🏽\u200D🦽" => [],
         "🧑🏽\u200D🦽\u200D➡️" => [],
+        "🧑🏽\u200D🩰" => [],
+        "🧑🏽\u200D🫯\u200D🧑🏻" => [],
+        "🧑🏽\u200D🫯\u200D🧑🏼" => [],
+        "🧑🏽\u200D🫯\u200D🧑🏾" => [],
+        "🧑🏽\u200D🫯\u200D🧑🏿" => [],
         "🧑🏾" => [],
         "🧑🏾\u200D⚕️" => [],
         "🧑🏾\u200D⚖️" => [],
@@ -37459,6 +39065,10 @@ defmodule Emoshi.Emoshis do
         "🧑🏾\u200D🎨" => [],
         "🧑🏾\u200D🏫" => [],
         "🧑🏾\u200D🏭" => [],
+        "🧑🏾\u200D🐰\u200D🧑🏻" => [],
+        "🧑🏾\u200D🐰\u200D🧑🏼" => [],
+        "🧑🏾\u200D🐰\u200D🧑🏽" => [],
+        "🧑🏾\u200D🐰\u200D🧑🏿" => [],
         "🧑🏾\u200D💻" => [],
         "🧑🏾\u200D💼" => [],
         "🧑🏾\u200D🔧" => [],
@@ -37480,6 +39090,11 @@ defmodule Emoshi.Emoshis do
         "🧑🏾\u200D🦼\u200D➡️" => [],
         "🧑🏾\u200D🦽" => [],
         "🧑🏾\u200D🦽\u200D➡️" => [],
+        "🧑🏾\u200D🩰" => [],
+        "🧑🏾\u200D🫯\u200D🧑🏻" => [],
+        "🧑🏾\u200D🫯\u200D🧑🏼" => [],
+        "🧑🏾\u200D🫯\u200D🧑🏽" => [],
+        "🧑🏾\u200D🫯\u200D🧑🏿" => [],
         "🧑🏿" => [],
         "🧑🏿\u200D⚕️" => [],
         "🧑🏿\u200D⚖️" => [],
@@ -37501,6 +39116,10 @@ defmodule Emoshi.Emoshis do
         "🧑🏿\u200D🎨" => [],
         "🧑🏿\u200D🏫" => [],
         "🧑🏿\u200D🏭" => [],
+        "🧑🏿\u200D🐰\u200D🧑🏻" => [],
+        "🧑🏿\u200D🐰\u200D🧑🏼" => [],
+        "🧑🏿\u200D🐰\u200D🧑🏽" => [],
+        "🧑🏿\u200D🐰\u200D🧑🏾" => [],
         "🧑🏿\u200D💻" => [],
         "🧑🏿\u200D💼" => [],
         "🧑🏿\u200D🔧" => [],
@@ -37522,6 +39141,11 @@ defmodule Emoshi.Emoshis do
         "🧑🏿\u200D🦼\u200D➡️" => [],
         "🧑🏿\u200D🦽" => [],
         "🧑🏿\u200D🦽\u200D➡️" => [],
+        "🧑🏿\u200D🩰" => [],
+        "🧑🏿\u200D🫯\u200D🧑🏻" => [],
+        "🧑🏿\u200D🫯\u200D🧑🏼" => [],
+        "🧑🏿\u200D🫯\u200D🧑🏽" => [],
+        "🧑🏿\u200D🫯\u200D🧑🏾" => [],
         "🧒" => [],
         "🧒🏻" => [],
         "🧒🏼" => [],
@@ -37763,6 +39387,8 @@ defmodule Emoshi.Emoshis do
         "🪇" => [],
         "🪈" => [],
         "🪉" => [],
+        "🪊" => [],
+        "🪎" => [],
         "🪏" => [],
         "🪐" => [],
         "🪑" => [],
@@ -37834,6 +39460,8 @@ defmodule Emoshi.Emoshis do
         "🫅🏾" => [],
         "🫅🏿" => [],
         "🫆" => [],
+        "🫈" => [],
+        "🫍" => [],
         "🫎" => [],
         "🫏" => [],
         "🫐" => [],
@@ -37860,6 +39488,8 @@ defmodule Emoshi.Emoshis do
         "🫧" => [],
         "🫨" => [],
         "🫩" => [],
+        "🫪" => [],
+        "🫯" => [],
         "🫰" => [],
         "🫰🏻" => [],
         "🫰🏼" => [],

@@ -5,7 +5,7 @@ defmodule EmoshiTest do
 
   describe "version/0" do
     test "returns the version used to generate the code" do
-      assert Emoshi.version() == "16.0"
+      assert Emoshi.version() == "17.0"
     end
   end
 
